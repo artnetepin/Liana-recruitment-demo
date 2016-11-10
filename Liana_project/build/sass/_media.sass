@@ -1,0 +1,193 @@
+$breakpoint-tablet: 640px
+$breakpoint-laptop: 960px
+$breakpoint-desktop: 1200px
+
+@media (min-width: $breakpoint-tablet)
+
+  // GENERAL STYLES
+
+  html, body
+    font-size: em(16)
+
+  .back-to-top
+  	width: 60px
+  	height: 60px
+  	font-size: 2.6em
+
+  // NAVIGATION BAR
+
+  .top-nav
+    .nav-list
+      float: right
+      padding-right: 5%
+
+  .logo-img
+    width: 70%
+
+  // NAVIGATE
+
+  .navigate-box
+    margin: 0 10%
+
+  // COMPANY IN NUMBERS
+
+  .numbers-icon
+    font-size: 4em
+
+  .numbers-stats
+    .num
+      font-size: 1.3em
+    .sub
+      font-size: 0.6em
+
+  // LATEST NEWS
+
+  .swiper-slide
+      padding: 5% 10%
+
+  // REFERENCES
+
+  .ref-box
+    margin: 10%
+    height: 90%
+
+  .ref-desc
+    padding: 5%
+
+  // SUBSCRIBE
+
+  .subscribe-input
+    padding-left: 1%
+
+  // FOOTER
+  .main-footer
+    h2
+      font-size: em(22)
+    h4
+      font-size: em(18)
+    .info
+      font-size: em(15)
+
+  .sm-icons
+    margin: 0 2%
+    a
+      width: 3em
+      height: 3em
+    // float: left
+
+@media (min-width: $breakpoint-laptop)
+
+  // NAVIGATION BAR
+
+  .main-nav
+    li
+      padding: 0 10%
+
+  // INTRO
+
+  .section-intro
+    padding: 15%
+
+  // NAVIGATE
+
+  // @keyframes swing
+  //
+  //   15%
+  //
+  //       -webkit-transform: translateX(5px)
+  //       transform: translateX(5px)
+  //
+  //   30%
+  //
+  //       -webkit-transform: translateX(-5px)
+  //       transform: translateX(-5px)
+  //
+  //   50%
+  //
+  //       -webkit-transform: translateX(3px)
+  //       transform: translateX(3px)
+  //
+  //   65%
+  //
+  //       -webkit-transform: translateX(-3px)
+  //       transform: translateX(-3px)
+  //
+  //   80%
+  //
+  //       -webkit-transform: translateX(2px)
+  //       transform: translateX(2px)
+  //
+  //   100%
+  //
+  //       -webkit-transform: translateX(0)
+  //       transform: translateX(0)
+  //
+  //
+  // .navigate-box:hover
+  //     -webkit-animation: swing 1s ease
+  //     animation: swing 1s ease
+  //     -webkit-animation-iteration-count: 1
+  //     animation-iteration-count: 1
+
+  .navigate-box:hover
+    opacity: 0.8
+
+  // COMPANY IN NUMBERS
+
+  .numbers-icon
+    font-size: 5em
+
+  .numbers-stats
+    padding-top: 5%
+    .num
+      font-size: 1.7em
+    .sub
+      font-size: 1em
+
+  .numbers-box
+    transition: all .2s ease-in-out
+
+  .numbers-box:hover
+    transform: scale(1.1)
+
+  // LATEST NEWS
+
+  .swiper-slide
+      padding: 5% 5%
+
+  // FOOTER
+  .main-footer
+    h2
+      font-size: em(24)
+    h4
+      font-size: em(20)
+    .info
+      font-size: em(18)
+
+  .footer-nav-li
+    display: inline-block
+    margin: 0 2%
+
+  .sm-icons
+    font-size: 1em
+    a
+      width: 2em
+      height: 2em
+
+@media (min-width: $breakpoint-desktop)
+
+  .back-to-top
+  	width: 70px
+  	height: 70px
+  	font-size: 3.2em
+
+  // COMPANY IN NUMBERS
+
+  .numbers-icon
+    padding: 0 5% 0 25%
+
+  .numbers-stats
+    padding: 5%  0
+
+  .sm-icons
+    font-size: 1.5em
